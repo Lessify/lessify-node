@@ -30,11 +30,9 @@
       ]
     }
   },
-
   "include": [
     "src/index.ts",
-    "package.json",
-    "README.md"
+    "package.json"
   ],
   "exclude": [
     "node_modules",

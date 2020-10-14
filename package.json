@@ -1,7 +1,7 @@
 {
   "name": "@lessify/sdk",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.1",
+  "description": "Integration of Lessify API with Node Projects.",
   "main": "src/index.js",
   "scripts": {
     "build": "tsc",
@@ -14,5 +14,13 @@
   "dependencies": {},
   "devDependencies": {
     "typescript": "^4.0.3"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lessify/lessify-node.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Lessify/lessify-node/issues"
+  },
+  "homepage": "https://github.com/Lessify/lessify-node#readme"
 }

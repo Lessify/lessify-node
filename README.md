@@ -2,11 +2,21 @@
 
 Integration of Lessify API with Node Projects.
 
-Support next implementations :
+````ts
+// configuration
+export const lessify: Lessify = new Lessify({
+  spaceId: 'your-space-id', 
+  environment: 'master',
+  apiKey: 'your-api-key'
+})
+//get translations
+lessify.translation.get(lang)
+//get configurations
+lessify.configuration.get()
+````
 
 ## NPM Publish
 
 `npm init --scope=lessify`
-`npm run build:prod`
-`npm publish --access public dist\core`
-`npm publish --access public dist\tools`
+`npm run build`
+`npm publish --access public dist`
